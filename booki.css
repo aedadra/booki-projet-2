@@ -40,13 +40,7 @@ body {
     object-fit: cover;
 }
 
-.card-title {
-    font-size: 16px;
-}
 
-.euro {
-    font-weight: 700;
-}
 
 .neutralStar {
     color: var(--main-bg-color)
@@ -65,10 +59,46 @@ body {
     box-sizing: border-box;
 }
 
+.card-title {
+    font-size: 16px;
+}
+
+.euro {
+    font-weight: 700;
+}
+/****** Header ***********/
+
+.logo img { 
+    width: 61.09px;
+    height: 19px;
+    }
+
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
 }
+
+.hebergements img{
+width: 250px;
+height: 124px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+padding: 5px;
+}
+
+.box {
+border-radius: 20px;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+background-color: white;
+margin: 20px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+
+}
+
 
 /****** Populaires ***********/
 .populaires {
@@ -115,10 +145,7 @@ body {
     margin-bottom: 5px;
 }
 
-.logo img { 
-width: 61.09px;
-height: 19px;
-}
+
 
 
 

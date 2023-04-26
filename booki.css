@@ -126,11 +126,7 @@ margin: 10px;
 
 }
 
-.hebergements-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .hebergements-elements{
     display: flex;
@@ -143,7 +139,7 @@ margin-top: 33px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-content: flex-start;
 }
 
 
@@ -194,11 +190,38 @@ margin-top: 33px;
 }
 
 
+/****** Activités ***********/
 
+.activites {
+    width: 97%;
+    margin-top: 50px;
+    margin-left: 3%;
+}
 
+.activites img {
+    width: 297.5px;
+height: 380px;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+object-fit: cover;
+}
 
+.activites-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
 
+.activites-content {
+    margin-top: 33px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
 
+.actvites-txt {
+    
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/

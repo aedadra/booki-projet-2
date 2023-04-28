@@ -74,7 +74,7 @@ body {
 .lien-hebergement {
     color:#0065FC;
     border-top-style: solid;
-    margin-right: 60px;
+    margin-right: 69px;
     
 }
 
@@ -88,8 +88,11 @@ body {
 
 .logo img {
 
-width: 61.09px;
-height: 19px;
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 30px;
+    top: 30px;
 
 }
 
@@ -98,7 +101,7 @@ height: 19px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 /****** filtres ***********/
@@ -116,7 +119,7 @@ height: 19px;
 
 .filtre-bar {
     display: flex;
-    margin-bottom: 25px;
+    margin-bottom: 37.5px;
 }
 
 
@@ -140,20 +143,28 @@ height: 19px;
 .info-sentence{
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 37.5px;
+    
+}
+
+.info-space {
+    padding-left: 10px;
     
 }
 
 .recherche-txt {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 35px;
+    
 }
 
 /****** formulaire de recherche de ville ***********/
 
 .recherche.title {
     margin-bottom: 0px;
+    margin-top: 60px;
 }
 
 
@@ -164,7 +175,7 @@ align-items: center;
 width: 377px;
 height: 49px;
 border-style: hidden;
-margin-bottom: 40px;
+margin-bottom: 35px;
 }
 
 .recherche-symbole {
@@ -208,6 +219,7 @@ color: white;
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    
 }
 
 .hebergements img{
@@ -236,14 +248,14 @@ display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   margin-top: 33px;
+   margin-top: 30px;
 }
 
 .hebergements-elements2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   margin-top: 33px;
+   margin-top: 30px;
 }
 
 .box-content {
@@ -275,6 +287,7 @@ display: flex;
     font-weight: 700;
     font-size: 18px;
     margin-top: 30px;
+    margin-bottom: 0;
 }
 
 /****** Populaires ***********/
@@ -328,7 +341,7 @@ display: flex;
 
 .activites {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 65px;
     margin-left: 3%;
 }
 
@@ -340,45 +353,81 @@ border-top-left-radius: 20px;
 object-fit: cover;
 }
 
-.activites-card {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-    
-}
+
 
 .activites-content {
-    margin-top: 33px;
+    margin-top: 30px;
     display: flex;
-    justify-content: flex-start;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .activites-txt {
     
-    padding: 20px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     background-color: white;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 20px 20px;
+    width: 297.5px;
+    height: 59px;
+
 }
 
+.activites .card-title {
+    padding: 20px;
+}
 
 /****** Footer ***********/
 footer {
     width: 100%;
     background-color: var(--main-bg-color) ;
+    margin-top: 65px;
+    padding: 20px;
+    height: 163px;
 }
-
-
-
 
 .footer {
     display: flex;
-    justify-content: space-around;
- 
+flex-direction: row;
+align-items: flex-start;
+
+}
+
+.footer-column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 446.67px;
     
-   
+}
+
+.footer-column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 446.67px;
+  
+}
+
+.footer-column3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 446.67px;
+  
+}
+
+footer .footer-txt {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+footer .card-title {
+    margin: 0;
 }
 
 

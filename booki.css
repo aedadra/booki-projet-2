@@ -100,14 +100,17 @@ top: 30px;
     align-items: center;
 }
 
-/****** Populaires ***********/
+/****** filtres ***********/
 
 .filtre-button {
     margin-left: 15px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     display: flex;
-   
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .filtre-bar {
@@ -118,28 +121,81 @@ top: 30px;
 .filtre-txt {
     font-weight: 700;
     font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.info-button {
+
+    border-color: var(--main-bg-color);
+    border-style: solid;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.info-sentence{
+    display: flex;
+    align-items: center;
+    
 }
 
 .recherche-txt {
     font-weight: 400;
     font-size: 16px;
+    padding-left: 10px;
 }
+
+/****** formulaire de recherche de ville ***********/
+
 
 .recherche-interface {
     display: flex;
+flex-direction: row;
+align-items: center;
+width: 377px;
+height: 49px;
+border-style: hidden;
+}
+
+.recherche-symbole {
+    background-color: var(--main-bg-color);
+    width: 50px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.recherche-champ {
+    height: 43px;
+    text-align: center;
+    font-weight: 700;
+    border-style: solid;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-color: var(--main-bg-color);
+    border-width: 2px;
+    
 }
 
 
 
-
-
-
-
-
-
-
-
-
+.recherche-button {
+    background-color: #0065FC;
+    Height: 49px;
+    width: 132px;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-style: hidden;
+border-radius: 0px 15px 15px 0px;
+font-weight: 700;
+color: white;
+}
 
 /****** Hebergements ***********/
 .hebergements {
@@ -269,6 +325,22 @@ object-fit: cover;
 }
 
 
+/****** Footer ***********/
+footer {
+    width: 100%;
+    background-color: var(--main-bg-color) ;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+ 
+    
+   
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

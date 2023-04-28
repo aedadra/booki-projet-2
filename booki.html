@@ -53,26 +53,24 @@
         <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
     </div>    
     
-    <div class="recherche-txt">
+   
         <p>En plein centre-ville ou en pleine nature</p><br>
-    </div>
+   
 
     <div class="recherche-interface">
         <div class="recherche-symbole">
-            <i class="fa-solid fa-location-dot"></i>
-        </div>
+            <i class="fa-solid fa-location-dot" style="color: #000000;"></i>
+        </div>       
             
-        <div class="recherche-champ">
-            <form method="get" action="">
-                <input type="text" name="ville" value="Marseille, France">
-            </form>
-        </div>
-           
-        <div class="recherche-button">
-            <input type="submit" value="Rechercher">
-        </div>
+            <form method="get" action="">       
+                <input type="text" name="ville" value="Marseille, France" class="recherche-champ">
+            </form>    
+            <input type="submit" value="Rechercher" class="recherche-button">  
     </div>
     
+<!--filtres-->
+
+
     <div class="filtre-bar">
         <div class="filtre-txt">
             <p>Filtres</p>
@@ -362,7 +360,34 @@
 <!--footer-->     
       
       
-        <footer></footer>
+        <footer>
+
+            <div class="footer">
+                <div class="footer-column">
+                    <h3 class="card-title">A propos</h3>
+                        <div class="footer-txt">
+                            <p>Fonctionnement du site</p>
+                            <p>Conditions generales</p>
+                            <p>Données et confidentialité</p>
+                        </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="card-title">Nos hébergements</h3>
+                        <div class="footer-txt">
+                            <p>Charte qualité</p>
+                            <p>Proposer votre hôtel</p>                       
+                        </div>
+                </div>
+                <div class="footer-column">
+                    <h3 class="card-title">Assistance</h3>
+                        <div class="footer-txt">
+                            <p>Centre d'aide</p>
+                            <p>Nous contacter</p>
+                        </div>
+                </div>  
+            </div>
+        
+        </footer>
     </div>
 </body>
 

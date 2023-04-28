@@ -69,11 +69,12 @@ body {
 
 
 
+
 /****** Header ***********/
 .lien-hebergement {
     color:#0065FC;
     border-top-style: solid;
-    margin-right: 15px;
+    margin-right: 60px;
     
 }
 
@@ -86,11 +87,10 @@ body {
 }
 
 .logo img {
-position: absolute;
+
 width: 61.09px;
 height: 19px;
-left: 30px;
-top: 30px;
+
 }
 
 .header {
@@ -98,6 +98,7 @@ top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 /****** filtres ***********/
@@ -115,6 +116,7 @@ top: 30px;
 
 .filtre-bar {
     display: flex;
+    margin-bottom: 25px;
 }
 
 
@@ -138,6 +140,7 @@ top: 30px;
 .info-sentence{
     display: flex;
     align-items: center;
+    margin-bottom: 25px;
     
 }
 
@@ -149,6 +152,10 @@ top: 30px;
 
 /****** formulaire de recherche de ville ***********/
 
+.recherche.title {
+    margin-bottom: 0px;
+}
+
 
 .recherche-interface {
     display: flex;
@@ -157,6 +164,7 @@ align-items: center;
 width: 377px;
 height: 49px;
 border-style: hidden;
+margin-bottom: 40px;
 }
 
 .recherche-symbole {
@@ -217,17 +225,25 @@ object-fit: cover;
 border-radius: 20px;
 box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 background-color: white;
-margin: 10px;
+display: flex;
+
 
 }
 
 
 
-.hebergements-elements{
+.hebergements-elements1 {
     display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-margin-top: 33px;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-top: 33px;
+}
+
+.hebergements-elements2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   margin-top: 33px;
 }
 
 .box-content {
@@ -237,6 +253,29 @@ margin-top: 33px;
     align-content: flex-start;
 }
 
+.hebergements-elements1 .card-title, .card-subtitle {
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.hebergements-elements2 .card-title, .card-subtitle {
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+.box-content .card-txt {
+    margin-left: 15px;
+}
+
+.box-content .card-rating {
+    margin-bottom: 5px;
+}
+
+.afficher-plus {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+}
 
 /****** Populaires ***********/
 .populaires {
@@ -288,7 +327,7 @@ margin-top: 33px;
 /****** Activités ***********/
 
 .activites {
-    width: 97%;
+    width: 100%;
     margin-top: 50px;
     margin-left: 3%;
 }

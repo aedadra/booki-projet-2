@@ -27,7 +27,7 @@
     <div class="header">
         <div class="logo">
             <img src="C:\Users\aedadra\Desktop\booki-starter-code\images\logo\Booki.png">
-        </div>       
+        </div>     
             <nav>
                 <div class="liens-header">
                     <div class="lien-hebergement">
@@ -37,8 +37,8 @@
                         <p>Activités</p>
                     </div>
                 </div>
-            </nav>        
-    </div>    
+            </nav>             
+    </div>     
 </header>
 
 
@@ -64,18 +64,22 @@
             
             <form method="get" action="">       
                 <input type="text" name="ville" value="Marseille, France" class="recherche-champ">
-            </form>    
-            <input type="submit" value="Rechercher" class="recherche-button">  
+            </form>   
+            <div class="recherche-button">
+                <button type="button" name="Recherche"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+            </div> 
+            
     </div>
     
 <!--filtres-->
 
 
-    <div class="filtre-bar">
-        <div class="filtre-txt">
-            <p>Filtres</p>
-        </div>
-
+<div class="filtre-bar">
+        
+            <p class="filtre-title">Filtres</p>
+    
+    <div class="filtre-block">
+        <div class="filtre-bar1">
         <div class="filtre-button">
             <i class="fa-solid fa-money-bill-wave"></i>
                 <div class="filtre-txt">
@@ -89,7 +93,8 @@
                     <p>Familial</p>
                 </div>
         </div>
-
+        </div>
+        <div class="filtre-bar1">
         <div class="filtre-button">
             <i class="fa-solid fa-heart"></i>
                 <div class="filtre-txt">
@@ -103,7 +108,9 @@
                     <p>Nos pépites</p>
                 </div>     
         </div>
+        </div>
     </div>    
+</div>
 
 
     <div class="info-sentence">
@@ -114,7 +121,6 @@
             <p class="info-space">Plus de 500 logements sont disponibles dans cette ville</p>
         
     </div>
-
 
 
 

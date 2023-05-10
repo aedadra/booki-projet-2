@@ -626,6 +626,7 @@ nav {
 
 .recherche {
     padding: 20px;
+    align-items: center;
 }
 
 .recherche-button button::before {
@@ -645,6 +646,7 @@ nav {
 .recherche-interface {
     width: 335px;
     margin-left: -8px;
+    align-items: center;
 }
 
 .recherche-champ {

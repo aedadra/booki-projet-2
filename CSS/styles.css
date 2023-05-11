@@ -71,7 +71,14 @@ body a {
     font-weight: 700;
 }
 
+.star-color {
+    color: #f2f2f2;
+}
+
 /****** Header ***********/
+body {
+    margin-top: 0;
+}
 
 header {
     max-width: 1440px;
@@ -113,6 +120,7 @@ nav {
     padding: 0px;
     gap: 68px;
     text-align: center;
+    margin-right: -8px;
 }
 
 .lien-hebergement, .lien-activites {
@@ -132,7 +140,13 @@ nav {
     border-top-color: #0065FC ;
 }
 
+.loupe-color {
+    color: #ffffff;
+}
 
+.point-color {
+    color: black;
+}
 
 /****** recherche ***********/
 
@@ -274,19 +288,14 @@ nav {
     background-color: white; 
 }
 
-.hebergements-elements1, .hebergements-elements2 {
+.hebergements-elements {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.hebergements-elements1 .card-title, .card-subtitle {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.hebergements-elements2 .card-title, .card-subtitle {
+.hebergements-elements .card-title, .card-subtitle {
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -796,14 +805,7 @@ section.hebergements {
     object-fit: cover;
 }
 
-.hebergements-elements1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-}
-
-.hebergements-elements2 {
+.hebergements-elements {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -866,3 +868,13 @@ footer {
 
 }
 
+
+@media (min-width: 1900px) {
+    .header-logo {
+        margin-left: 0;
+    }
+
+    .header-liens {
+        margin-right: 0;
+    }
+}

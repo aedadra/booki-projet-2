@@ -295,13 +295,17 @@ nav {
     margin-top: 30px;
 }
 
+.hebergements-elements a {
+    width: 30%;
+}
+
 .hebergements-elements .card-title, .card-subtitle {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .hebergements img{
-    width: 240px;
+    width: 95%;
     height: 124px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -317,6 +321,7 @@ nav {
 }
 
 .box-content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -355,6 +360,9 @@ nav {
     margin-top: 33px;
 }
 
+.populaires a {
+    width: 100%;
+}
 .populaires-cards img {
     width: 33%;
     height: 136px;
@@ -394,12 +402,17 @@ nav {
 }
 
 .activites img {
-    width: 297.5px;
+    width: 95%;
     height: 380px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     object-fit: cover;
 }
+
+.activites a {
+    width: 25%;
+}
+
 
 .activites-content {
     margin-top: 30px;
@@ -417,7 +430,7 @@ nav {
     background-color: white;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 20px 20px;
-    width: 297.5px;
+    width: 95%;
     height: 59px;
 }
 
@@ -520,14 +533,14 @@ header {
 }
 
 .populaires-cards article.card {
-    Width: 274.67px;
+    
     Height: 146px;
     margin-top: 0px;
 }
 
 
 .populaires-cards a {
-    Width: 274.67px;
+    
     Height: 146px;
     margin-top: 20px;
     display: flex;
@@ -539,6 +552,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .populaires-cards .card-title {
@@ -550,7 +564,7 @@ header {
 }
 
 .activites img {
-    width: 193.5px;
+    
     height: 200px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -742,7 +756,7 @@ section.populaires {
 }
 
 .card img {
-    width: 111.67px;
+    
     height: 146px;
     object-fit: cover;
 }
@@ -753,13 +767,13 @@ section.populaires {
 }
 
 .populaires-cards article.card {
-    Width: 335px;
+   
     Height: 146px;
     margin-top: 0px;
 }
 
 .populaires-cards a {
-    Width: 335px;
+   
     Height: 146px;
     margin-top: 15px;
     display: flex;
@@ -779,6 +793,10 @@ section.hebergements {
     background-color: white;
 }
 
+.hebergements a {
+    width: 100%;
+}
+
 .hebergements {
     width: 100%;
     display: flex;
@@ -786,7 +804,7 @@ section.hebergements {
 }
 
 .hebergements img{
-    width: 335px;
+ 
     height: 124px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -816,13 +834,13 @@ section.hebergements {
 }
 
 .activites img {
-    width: 315px;
+   
     height: 141px;
     object-fit: cover;
 }
 
 .activites-txt {
-    width: 315px;
+  width: 95%;
     height: 59px;
 }
 
@@ -837,7 +855,9 @@ section.hebergements {
     margin-left: 0px;
     margin-top: 55px;
 }
-
+.activites a {
+    width: 100%;
+}
 /****** footer ***********/
 
 footer {
